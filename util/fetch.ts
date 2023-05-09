@@ -1,4 +1,11 @@
 import { ApolloClient, InMemoryCache, gql } from "@apollo/client"
+import { readFileSync } from "fs";
+
+export const getDataFromJsonSync = (username: string) => {
+    const buffer = readFileSync(`data/users/${username}.json`);
+    const data = JSON.parse(buffer.toString());
+    return data;
+  };
 
 export const getHashnodeBlogInfo = async (username: string) => {
     const client = new ApolloClient({
