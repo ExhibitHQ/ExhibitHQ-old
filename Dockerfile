@@ -1,15 +1,6 @@
-FROM node:16
-
+FROM node:16-alpine as development
 WORKDIR /app
-
-COPY . .
-
+COPY ./package.json .
 RUN yarn install
-
-# RUN yarn next telemetry disable
-
-RUN yarn build
-
-EXPOSE 3000
-
+COPY . .
 CMD ["yarn","dev"]
