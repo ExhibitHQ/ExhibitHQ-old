@@ -5,6 +5,7 @@ const nextConfig = {
     // Required:
     appDir: true,
   },
+  telemetry: false // Add this line to disable anonymous telemetry
 };
 
 module.exports = nextConfig;
