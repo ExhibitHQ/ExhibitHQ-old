@@ -4,7 +4,7 @@ const nextConfig = {
   experimental: {
     // Required:
     appDir: true,
-  }
+  },
 };
 
 module.exports = nextConfig;
