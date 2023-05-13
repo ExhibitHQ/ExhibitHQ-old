@@ -54,7 +54,7 @@ Example how to mark a checkbox:-
 
 - [ ] I agree to follow this project's [Code of Conduct](#)
 
-**Please keep up with the [Discord Conversation](https://discord.gg/C4xjqVNdfT) for more information.**
+**Please keep up with the [Discord Conversation](https://discord.gg/xEmrjeeS) for more information.**
 
 <!-- Thanks for contributing, keep up the good work 🔥 -->
 
