@@ -1,3 +1,1 @@
 # ExhibitHQ
-
-testing
